@@ -19,7 +19,7 @@ public class Application {
         System.out.println("it should have the provided name and level.");
         System.out.println("Creating player 'Vikas' with level 5, should have the name 'Vikas' and a level of 5: ");
         Player p2 = new Player("Vikas", 5);
-        System.out.println("His name is: " + p1.playerName);
-        System.out.println("His level is : " + p1.level);
+        System.out.println("His name is: " + p2.playerName);
+        System.out.println("His level is : " + p2.level);
     }
 }
